@@ -1,0 +1,2 @@
+/usr/bin/ar qc libControlUtils.a CMakeFiles/ControlUtils.dir/src/Gait.cpp.o CMakeFiles/ControlUtils.dir/src/SwingLeg.cpp.o CMakeFiles/ControlUtils.dir/src/CubicSwingLeg.cpp.o
+/usr/bin/ranlib libControlUtils.a

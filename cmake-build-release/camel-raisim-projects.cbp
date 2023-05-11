@@ -1,0 +1,1920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="camel-raisim-projects"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\camel-canine\;CMake Files\camel-canine\canine_controller\;CMake Files\camel-canine\canine_controller\ControlMain\;CMake Files\camel-canine\canine_controller\ControlUtils\;CMake Files\camel-canine\canine_controller\LowController\;CMake Files\camel-canine\canine_controller\PDcontroller\;CMake Files\camel-canine\canine_controller\convexMPC\;CMake Files\camel-canine\canine_util\;CMake Files\camel-canine\canine_visualizer\;CMake Files\camel-canine\canine_visualizer\canine_gui\;CMake Files\camel-canine\canine_visualizer\canine_raisim\;CMake Files\camel-canine\canine_fsm\;CMake Files\camel-canine\canine_simulation\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\share\;CMake Files\..\..\..\usr\local\share\camel-tools-trajectory\;CMake Files\..\..\..\usr\local\share\camel-tools-thread\;CMake Files\..\..\..\usr\local\share\camel-tools-sensor\;CMake Files\..\..\..\usr\local\lib\;CMake Files\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\usr\local\lib\cmake\RBDL\;CMake Files\..\..\..\usr\lib\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\usr\lib\cmake\eigen3\;CMake Files\camel-thirdparty\;CMake Files\camel-thirdparty\qpOASES\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qpOASES">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/libs/libqpOASES.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 qpOASES"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qpOASES/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/libs/libqpOASES.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 qpOASES/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example1"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example1/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1a">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example1a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example1a"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1a/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example1a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example1a/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1b">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example1b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example1b"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example1b/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example1b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example1b/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example2"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example2/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example2/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example3"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example3/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3b">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example3b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example3b"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example3b/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example3b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example3b/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example4">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example4"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example4/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example4/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example5">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example5"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example5/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/example5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 example5/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleLP">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/exampleLP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 exampleLP"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exampleLP/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/exampleLP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 exampleLP/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qrecipe">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/qrecipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 qrecipe"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qrecipe/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/qrecipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 qrecipe/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qrecipeSchur">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/qrecipeSchur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 qrecipeSchur"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="qrecipeSchur/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin/qrecipeSchur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 qrecipeSchur/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-thirdparty/qpOASES/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camel-canine">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/camel-canine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/include"/>
+					<Add directory="/usr/share/c++-mscl/source"/>
+					<Add directory="/usr/share/c++-mscl/Boost/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 camel-canine"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camel-canine/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/camel-canine" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/include"/>
+					<Add directory="/usr/share/c++-mscl/source"/>
+					<Add directory="/usr/share/c++-mscl/Boost/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 camel-canine/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camel-canine-simul">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/camel-canine-simul" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/include"/>
+					<Add directory="/usr/share/c++-mscl/source"/>
+					<Add directory="/usr/share/c++-mscl/Boost/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 camel-canine-simul"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="camel-canine-simul/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/camel-canine-simul" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/include"/>
+					<Add directory="/usr/share/c++-mscl/source"/>
+					<Add directory="/usr/share/c++-mscl/Boost/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 camel-canine-simul/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_util">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/libcanine_util.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 canine_util"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_util/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/libcanine_util.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 canine_util/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ControlUtils">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/libControlUtils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 ControlUtils"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ControlUtils/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/libControlUtils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 ControlUtils/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlUtils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convexMPC">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/libconvexMPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 convexMPC"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="convexMPC/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/libconvexMPC.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 convexMPC/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/convexMPC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PDcontroller">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/libPDcontroller.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 PDcontroller"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PDcontroller/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/libPDcontroller.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 PDcontroller/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/PDcontroller/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LowController">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/libLowController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 LowController"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LowController/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/libLowController.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 LowController/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/LowController/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ControlMain">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/libControlMain.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 ControlMain"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ControlMain/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/libControlMain.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 ControlMain/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_controller/ControlMain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_gui">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/libcanine_gui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/canine_gui_autogen/include"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 canine_gui"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_gui/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/libcanine_gui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/canine_gui_autogen/include"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 canine_gui/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_gui_autogen">
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 canine_gui_autogen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_raisim">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/libcanine_raisim.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 canine_raisim"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_raisim/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/libcanine_raisim.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 canine_raisim/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_raisim/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_fsm">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/libcanine_fsm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/share/c++-mscl/source"/>
+					<Add directory="/usr/share/c++-mscl/Boost/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 canine_fsm"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_fsm/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/libcanine_fsm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/include"/>
+					<Add directory="/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/usr/share/c++-mscl/source"/>
+					<Add directory="/usr/share/c++-mscl/Boost/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 canine_fsm/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_fsm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_simulation">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/libcanine_simulation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 canine_simulation"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="canine_simulation/fast">
+				<Option output="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/libcanine_simulation.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DURDF_RSC_DIR=&quot;/home/sangjun/camel-raisim-projects/camel-urdf/&quot;"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_NO_DEBUG"/>
+					<Add directory="/home/sangjun/Library/raisimLib/raisim/linux/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/include"/>
+					<Add directory="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 canine_simulation/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_simulation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/src/HighControlMain.cpp">
+			<Option target="ControlMain"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/src/LowControlMain.cpp">
+			<Option target="ControlMain"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/src/CubicSwingLeg.cpp">
+			<Option target="ControlUtils"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/src/Gait.cpp">
+			<Option target="ControlUtils"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/src/SwingLeg.cpp">
+			<Option target="ControlUtils"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/src/LowPDcontrol.cpp">
+			<Option target="LowController"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/src/LowWholeBodyLocalPDController.cpp">
+			<Option target="LowController"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/src/LowWholeBodyPDController.cpp">
+			<Option target="LowController"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/src/JointPDController.cpp">
+			<Option target="PDcontroller"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/src/MPCController.cpp">
+			<Option target="convexMPC"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/src/MPCSolver.cpp">
+			<Option target="convexMPC"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_demo/CanineMain.cpp">
+			<Option target="camel-canine"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_demo/CanineSimul.cpp">
+			<Option target="camel-canine-simul"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/src/MainFSM.cpp">
+			<Option target="canine_fsm"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/src/SimulCommand.cpp">
+			<Option target="canine_simulation"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/src/SimulControlPanel.cpp">
+			<Option target="canine_simulation"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/src/SimulControlPanelHigh.cpp">
+			<Option target="canine_simulation"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/src/SimulMain.cpp">
+			<Option target="canine_simulation"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/src/SimulStateEstimator.cpp">
+			<Option target="canine_simulation"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/src/SimulVisualizer.cpp">
+			<Option target="canine_simulation"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/CanMotorLB.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/CanMotorLF.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/CanMotorRB.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/CanMotorRF.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/Command.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/DataAnalysis.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/Filter.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/RobotMath.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/src/StateEstimator.cpp">
+			<Option target="canine_util"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include/canine_gui/mainwindow.cpp">
+			<Option target="canine_gui"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include/canine_gui/mainwindow.h">
+			<Option target="canine_gui"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include/canine_gui/qcustomplot.cpp">
+			<Option target="canine_gui"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/include/canine_gui/qcustomplot.hpp">
+			<Option target="canine_gui"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/src/RobotVisualization.cpp">
+			<Option target="canine_raisim"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example1.cpp">
+			<Option target="example1"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example1a.cpp">
+			<Option target="example1a"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example1b.cpp">
+			<Option target="example1b"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example2.cpp">
+			<Option target="example2"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example3.cpp">
+			<Option target="example3"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example3b.cpp">
+			<Option target="example3b"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example4.cpp">
+			<Option target="example4"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/example5.cpp">
+			<Option target="example5"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/exampleLP.cpp">
+			<Option target="exampleLP"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/qrecipe.cpp">
+			<Option target="qrecipe"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/examples/qrecipeSchur.cpp">
+			<Option target="qrecipeSchur"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/BLASReplacement.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/Bounds.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/Constraints.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/Flipper.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/Indexlist.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/LAPACKReplacement.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/Matrices.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/MessageHandling.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/OQPinterface.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/Options.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/QProblem.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/QProblemB.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/SQProblem.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/SQProblemSchur.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/SolutionAnalysis.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/SparseSolver.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/SubjectTo.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/src/Utils.cpp">
+			<Option target="qpOASES"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/cmake-build-release/camel-canine/canine_visualizer/canine_gui/canine_gui_autogen/mocs_compilation.cpp">
+			<Option target="canine_gui"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlMain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_controller\ControlMain\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/ControlUtils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_controller\ControlUtils\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/LowController/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_controller\LowController\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/PDcontroller/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_controller\PDcontroller\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_controller/convexMPC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_controller\convexMPC\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_util\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_gui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_visualizer\canine_gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_visualizer/canine_raisim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_visualizer\canine_raisim\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_fsm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_fsm\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-canine/canine_simulation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-canine\canine_simulation\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-trajectory/camel-tools-trajectory-config-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-trajectory\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-trajectory/camel-tools-trajectory-config-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-trajectory\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-trajectory/camel-tools-trajectory-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-trajectory\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-thread/camel-tools-thread-config-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-thread\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-thread/camel-tools-thread-config-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-thread\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-thread/camel-tools-thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-thread\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-sensor/camel-tools-sensor-config-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-sensor\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/share/camel-tools-sensor/camel-tools-sensor-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\share\camel-tools-sensor\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/local/lib/cmake/RBDL/RBDLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\lib\cmake\RBDL\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/sangjun/camel-raisim-projects/camel-thirdparty/qpOASES/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\camel-thirdparty\qpOASES\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

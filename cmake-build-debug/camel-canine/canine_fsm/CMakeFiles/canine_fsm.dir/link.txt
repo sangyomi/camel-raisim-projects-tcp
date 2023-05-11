@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcanine_fsm.a CMakeFiles/canine_fsm.dir/src/MainFSM.cpp.o
+/usr/bin/ranlib libcanine_fsm.a

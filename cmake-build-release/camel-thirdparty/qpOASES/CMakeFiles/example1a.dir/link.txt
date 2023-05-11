@@ -1,0 +1,1 @@
+/usr/bin/g++  -D__NO_COPYRIGHT__ -Wall -pedantic -Wfloat-equal -Wshadow -DLINUX -g -O3 -finline-functions -rdynamic CMakeFiles/example1a.dir/examples/example1a.cpp.o -o bin/example1a   -L/home/sangjun/Library/raisimLib/raisim/linux/lib  -Wl,-rpath,/home/sangjun/Library/raisimLib/raisim/linux/lib libs/libqpOASES.a 

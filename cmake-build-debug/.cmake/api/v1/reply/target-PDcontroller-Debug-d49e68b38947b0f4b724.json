@@ -1,0 +1,165 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "camel-canine/canine_controller/PDcontroller/libPDcontroller.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"ADD_COMPILE_DEFINITIONS",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"camel-canine/canine_controller/PDcontroller/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "URDF_RSC_DIR=\"/home/sangjun/camel-raisim-projects_tcp/camel-urdf/\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/Library/raisimLib/raisim/linux/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/PDcontroller/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-thirdparty/qpOASES/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_util/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/ControlUtils/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/LowController/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "qpOASES::@42f6567e0db034f31960"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "canine_util::@d4e399c9503c20cc0a82"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ControlUtils::@6be1d0534f249a67f1bb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LowController::@b8820119aae4e841969d"
+		}
+	],
+	"id" : "PDcontroller::@b7c63f576bc2162ec163",
+	"name" : "PDcontroller",
+	"nameOnDisk" : "libPDcontroller.a",
+	"paths" : 
+	{
+		"build" : "camel-canine/canine_controller/PDcontroller",
+		"source" : "camel-canine/canine_controller/PDcontroller"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_controller/PDcontroller/src/JointPDController.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

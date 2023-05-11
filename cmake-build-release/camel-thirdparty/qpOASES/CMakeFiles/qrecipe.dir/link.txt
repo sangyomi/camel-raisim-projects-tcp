@@ -1,0 +1,1 @@
+/usr/bin/g++  -D__NO_COPYRIGHT__ -Wall -pedantic -Wfloat-equal -Wshadow -DLINUX -g -O3 -finline-functions -rdynamic CMakeFiles/qrecipe.dir/examples/qrecipe.cpp.o -o bin/qrecipe   -L/home/sangjun/Library/raisimLib/raisim/linux/lib  -Wl,-rpath,/home/sangjun/Library/raisimLib/raisim/linux/lib libs/libqpOASES.a 

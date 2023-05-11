@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcanine_simulation.a CMakeFiles/canine_simulation.dir/src/SimulCommand.cpp.o CMakeFiles/canine_simulation.dir/src/SimulControlPanel.cpp.o CMakeFiles/canine_simulation.dir/src/SimulControlPanelHigh.cpp.o CMakeFiles/canine_simulation.dir/src/SimulMain.cpp.o CMakeFiles/canine_simulation.dir/src/SimulStateEstimator.cpp.o CMakeFiles/canine_simulation.dir/src/SimulVisualizer.cpp.o
+/usr/bin/ranlib libcanine_simulation.a

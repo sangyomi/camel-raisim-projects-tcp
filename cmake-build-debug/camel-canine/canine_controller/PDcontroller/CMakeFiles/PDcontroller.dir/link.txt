@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPDcontroller.a CMakeFiles/PDcontroller.dir/src/JointPDController.cpp.o
+/usr/bin/ranlib libPDcontroller.a

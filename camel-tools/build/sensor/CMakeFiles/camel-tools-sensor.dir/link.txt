@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libcamel-tools-sensor.so -o libcamel-tools-sensor.so CMakeFiles/camel-tools-sensor.dir/src/LoadCell.cpp.o 

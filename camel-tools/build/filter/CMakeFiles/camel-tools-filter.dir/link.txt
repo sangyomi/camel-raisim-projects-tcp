@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libcamel-tools-filter.so -o libcamel-tools-filter.so CMakeFiles/camel-tools-filter.dir/src/LPF.cpp.o 

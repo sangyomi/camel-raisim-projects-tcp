@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "camel-canine/canine_controller/convexMPC",
+		"source" : "camel-canine/canine_controller/convexMPC"
+	}
+}

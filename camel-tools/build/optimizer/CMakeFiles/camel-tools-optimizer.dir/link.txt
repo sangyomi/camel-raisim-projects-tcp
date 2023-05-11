@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libcamel-tools-optimizer.so -o libcamel-tools-optimizer.so CMakeFiles/camel-tools-optimizer.dir/src/GradientDescentOptimizer.cpp.o 

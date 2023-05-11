@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcanine_raisim.a CMakeFiles/canine_raisim.dir/src/RobotVisualization.cpp.o
+/usr/bin/ranlib libcanine_raisim.a

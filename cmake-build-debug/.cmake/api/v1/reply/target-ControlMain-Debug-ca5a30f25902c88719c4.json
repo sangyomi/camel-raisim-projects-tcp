@@ -1,0 +1,155 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "camel-canine/canine_controller/ControlMain/libControlMain.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ADD_COMPILE_DEFINITIONS",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"camel-canine/canine_controller/ControlMain/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 4,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "URDF_RSC_DIR=\"/home/sangjun/camel-raisim-projects_tcp/camel-urdf/\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "/home/sangjun/Library/raisimLib/raisim/linux/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/ControlMain/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_util/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/PDcontroller/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/convexMPC/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/ControlUtils/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/LowController/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-thirdparty/qpOASES/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "ControlMain::@25db9055df1f6881c1e1",
+	"name" : "ControlMain",
+	"nameOnDisk" : "libControlMain.a",
+	"paths" : 
+	{
+		"build" : "camel-canine/canine_controller/ControlMain",
+		"source" : "camel-canine/canine_controller/ControlMain"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_controller/ControlMain/src/LowControlMain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_controller/ControlMain/src/HighControlMain.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

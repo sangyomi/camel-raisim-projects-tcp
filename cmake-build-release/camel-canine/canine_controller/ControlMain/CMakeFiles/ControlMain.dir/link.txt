@@ -1,0 +1,2 @@
+/usr/bin/ar qc libControlMain.a CMakeFiles/ControlMain.dir/src/LowControlMain.cpp.o CMakeFiles/ControlMain.dir/src/HighControlMain.cpp.o
+/usr/bin/ranlib libControlMain.a

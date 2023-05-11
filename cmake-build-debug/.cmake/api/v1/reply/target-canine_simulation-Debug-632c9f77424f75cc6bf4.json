@@ -1,0 +1,287 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "camel-canine/canine_simulation/libcanine_simulation.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"ADD_COMPILE_DEFINITIONS",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"camel-canine/canine_simulation/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "URDF_RSC_DIR=\"/home/sangjun/camel-raisim-projects_tcp/camel-urdf/\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/sangjun/Library/raisimLib/raisim/linux/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_simulation/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-thirdparty/qpOASES/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_visualizer/canine_gui/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_util/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/ControlUtils/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/PDcontroller/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/convexMPC/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/sangjun/camel-raisim-projects_tcp/camel-canine/canine_controller/LowController/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtNetwork"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "qpOASES::@42f6567e0db034f31960"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "canine_util::@d4e399c9503c20cc0a82"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "ControlUtils::@6be1d0534f249a67f1bb"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "convexMPC::@ee269449f53816415eb9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "PDcontroller::@b7c63f576bc2162ec163"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "LowController::@b8820119aae4e841969d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "canine_gui::@98771b9390dfbae27a0d"
+		}
+	],
+	"id" : "canine_simulation::@dd7dd28bd964f6ff9616",
+	"name" : "canine_simulation",
+	"nameOnDisk" : "libcanine_simulation.a",
+	"paths" : 
+	{
+		"build" : "camel-canine/canine_simulation",
+		"source" : "camel-canine/canine_simulation"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_simulation/src/SimulCommand.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_simulation/src/SimulControlPanel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_simulation/src/SimulControlPanelHigh.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_simulation/src/SimulMain.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_simulation/src/SimulStateEstimator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_simulation/src/SimulVisualizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "camel-canine/canine_simulation/src/SimulCommunication.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

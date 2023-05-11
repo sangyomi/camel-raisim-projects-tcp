@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"camel-canine/canine_visualizer/canine_gui/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "canine_util::@d4e399c9503c20cc0a82"
+		}
+	],
+	"id" : "canine_gui_autogen::@98771b9390dfbae27a0d",
+	"isGeneratorProvided" : true,
+	"name" : "canine_gui_autogen",
+	"paths" : 
+	{
+		"build" : "camel-canine/canine_visualizer/canine_gui",
+		"source" : "camel-canine/canine_visualizer/canine_gui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/camel-canine/canine_visualizer/canine_gui/CMakeFiles/canine_gui_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/camel-canine/canine_visualizer/canine_gui/CMakeFiles/canine_gui_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

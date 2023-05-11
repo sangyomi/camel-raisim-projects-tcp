@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "camel-canine/canine_visualizer/canine_gui",
+		"source" : "camel-canine/canine_visualizer/canine_gui"
+	}
+}

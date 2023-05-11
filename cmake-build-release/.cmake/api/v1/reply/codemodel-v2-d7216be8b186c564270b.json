@@ -1,0 +1,608 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "camel-thirdparty/qpOASES",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-camel-thirdparty.qpOASES-Release-3fdb811bf57abcf05d62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "camel-thirdparty/qpOASES",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				},
+				{
+					"build" : "camel-canine",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"jsonFile" : "directory-camel-canine-Release-968a5ea285eb55a913b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "camel-canine",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "camel-canine/canine_util",
+					"jsonFile" : "directory-camel-canine.canine_util-Release-fc7e8f50128f58585465.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "camel-canine/canine_util",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "camel-canine/canine_controller/ControlUtils",
+					"jsonFile" : "directory-camel-canine.canine_controller.ControlUtils-Release-d9223c8c994bee6063b8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "camel-canine/canine_controller/ControlUtils",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "camel-canine/canine_controller/convexMPC",
+					"jsonFile" : "directory-camel-canine.canine_controller.convexMPC-Release-70af0284478e4ba14efe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "camel-canine/canine_controller/convexMPC",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "camel-canine/canine_controller/PDcontroller",
+					"jsonFile" : "directory-camel-canine.canine_controller.PDcontroller-Release-c4ad0b6a9bbf22619ac5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "camel-canine/canine_controller/PDcontroller",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "camel-canine/canine_controller/LowController",
+					"jsonFile" : "directory-camel-canine.canine_controller.LowController-Release-e04bea005044650075bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 7,
+					"source" : "camel-canine/canine_controller/LowController",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "camel-canine/canine_controller/ControlMain",
+					"jsonFile" : "directory-camel-canine.canine_controller.ControlMain-Release-6e9d31bc52b2192d6f5a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 8,
+					"source" : "camel-canine/canine_controller/ControlMain",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "camel-canine/canine_visualizer/canine_gui",
+					"jsonFile" : "directory-camel-canine.canine_visualizer.canine_gui-Release-c1f343e3711bb0a9a5e0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 9,
+					"source" : "camel-canine/canine_visualizer/canine_gui",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"build" : "camel-canine/canine_visualizer/canine_raisim",
+					"jsonFile" : "directory-camel-canine.canine_visualizer.canine_raisim-Release-1e7bf7b27c4887ba8dd6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 10,
+					"source" : "camel-canine/canine_visualizer/canine_raisim",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "camel-canine/canine_fsm",
+					"jsonFile" : "directory-camel-canine.canine_fsm-Release-666048d371a470805211.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 11,
+					"source" : "camel-canine/canine_fsm",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "camel-canine/canine_simulation",
+					"jsonFile" : "directory-camel-canine.canine_simulation-Release-74cdf0e932ff2409bb55.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 12,
+					"source" : "camel-canine/canine_simulation",
+					"targetIndexes" : 
+					[
+						10
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "camel-raisim-projects"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "qpOASES",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "camel-canine",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "canine_util",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "ControlUtils",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "convexMPC",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "PDcontroller",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "LowController",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "ControlMain",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "canine_gui",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "canine_raisim",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "canine_fsm",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "canine_simulation",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "ControlMain::@25db9055df1f6881c1e1",
+					"jsonFile" : "target-ControlMain-Release-20fa48f05eb76044e3b7.json",
+					"name" : "ControlMain",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ControlUtils::@6be1d0534f249a67f1bb",
+					"jsonFile" : "target-ControlUtils-Release-c6b8be865ea8ee378889.json",
+					"name" : "ControlUtils",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "LowController::@b8820119aae4e841969d",
+					"jsonFile" : "target-LowController-Release-ffb4ce00c1a473643da5.json",
+					"name" : "LowController",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "PDcontroller::@b7c63f576bc2162ec163",
+					"jsonFile" : "target-PDcontroller-Release-7823df7ecd572ea21a98.json",
+					"name" : "PDcontroller",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "camel-canine::@cb4c675fd53289861a34",
+					"jsonFile" : "target-camel-canine-Release-7e809e05553bb4314b3c.json",
+					"name" : "camel-canine",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "camel-canine-simul::@cb4c675fd53289861a34",
+					"jsonFile" : "target-camel-canine-simul-Release-0f926616787e331f957a.json",
+					"name" : "camel-canine-simul",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "canine_fsm::@0a872e645485365d25f1",
+					"jsonFile" : "target-canine_fsm-Release-2834f65dca64f6ee6697.json",
+					"name" : "canine_fsm",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "canine_gui::@98771b9390dfbae27a0d",
+					"jsonFile" : "target-canine_gui-Release-2ddda62ad42a51e291fc.json",
+					"name" : "canine_gui",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "canine_gui_autogen::@98771b9390dfbae27a0d",
+					"jsonFile" : "target-canine_gui_autogen-Release-121502dcacc9a1b3a4dd.json",
+					"name" : "canine_gui_autogen",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "canine_raisim::@89970446428f8dd5bf57",
+					"jsonFile" : "target-canine_raisim-Release-3bca9b3f492a40b969a3.json",
+					"name" : "canine_raisim",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "canine_simulation::@dd7dd28bd964f6ff9616",
+					"jsonFile" : "target-canine_simulation-Release-fca6c5d11fb469516700.json",
+					"name" : "canine_simulation",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "canine_util::@d4e399c9503c20cc0a82",
+					"jsonFile" : "target-canine_util-Release-b07f3c7d6a5421b4e765.json",
+					"name" : "canine_util",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "convexMPC::@ee269449f53816415eb9",
+					"jsonFile" : "target-convexMPC-Release-a3d90ee23cbcfbc2fc22.json",
+					"name" : "convexMPC",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example1::@42f6567e0db034f31960",
+					"jsonFile" : "target-example1-Release-b4bab5fbff7485bcfd5b.json",
+					"name" : "example1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example1a::@42f6567e0db034f31960",
+					"jsonFile" : "target-example1a-Release-6d37fc9046bd1838cdc9.json",
+					"name" : "example1a",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example1b::@42f6567e0db034f31960",
+					"jsonFile" : "target-example1b-Release-e4e723284d45cd99e006.json",
+					"name" : "example1b",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example2::@42f6567e0db034f31960",
+					"jsonFile" : "target-example2-Release-88b8e00a60164e062e7f.json",
+					"name" : "example2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example3::@42f6567e0db034f31960",
+					"jsonFile" : "target-example3-Release-03e99f6a37a4549c74cd.json",
+					"name" : "example3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example3b::@42f6567e0db034f31960",
+					"jsonFile" : "target-example3b-Release-40a6019ee97389f2c500.json",
+					"name" : "example3b",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example4::@42f6567e0db034f31960",
+					"jsonFile" : "target-example4-Release-7046bc409767cd4ee642.json",
+					"name" : "example4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "example5::@42f6567e0db034f31960",
+					"jsonFile" : "target-example5-Release-d13a3d2185425ac8a72c.json",
+					"name" : "example5",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "exampleLP::@42f6567e0db034f31960",
+					"jsonFile" : "target-exampleLP-Release-00717420fb1cf4f3fcba.json",
+					"name" : "exampleLP",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qpOASES::@42f6567e0db034f31960",
+					"jsonFile" : "target-qpOASES-Release-de5f4ceb4f7a926794f8.json",
+					"name" : "qpOASES",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qrecipe::@42f6567e0db034f31960",
+					"jsonFile" : "target-qrecipe-Release-30b3a3dac8916d7a88b0.json",
+					"name" : "qrecipe",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "qrecipeSchur::@42f6567e0db034f31960",
+					"jsonFile" : "target-qrecipeSchur-Release-069ded9685892bb166c9.json",
+					"name" : "qrecipeSchur",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sangjun/camel-raisim-projects/cmake-build-release",
+		"source" : "/home/sangjun/camel-raisim-projects"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
